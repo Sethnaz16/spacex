@@ -18,7 +18,6 @@ class Flight {
         this.pMass = pMass;
         this.detail = detail;
     }
-    
 }
 
 fetch('https://api.spacexdata.com/v1/launches')
