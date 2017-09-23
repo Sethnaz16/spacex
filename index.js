@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
-const fetch = require('node-fetch');
-//const nock = require('nock'); // for testing
-let global;
+var express = require('express');
+var app = express();
+var fetch = require('node-fetch');
+//var nock = require('nock'); // for testing
+var global;
 
 var flightMap = new Map();
 
