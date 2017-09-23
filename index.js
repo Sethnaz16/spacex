@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const fetch = require('node-fetch');
-const nock = require('nock'); // for testing
+//const nock = require('nock'); // for testing
 let global;
 
 var flightMap = new Map();
